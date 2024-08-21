@@ -1,0 +1,15 @@
+<body>
+    <h1>JavaScript Can Change Images</h1>
+    <img id="myImage" onclick="changeImage()" src="desert.png" width="100" height="180">
+    
+    <script>
+    function changeImage() {
+        var  image = document.getElementById('myImage');
+        if (image.src.match("desert")) {
+            image.src = "Robot.png";
+        } else {
+            image.src = "desert.png";
+        }
+    }
+    </script>
+    </body>
