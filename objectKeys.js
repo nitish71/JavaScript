@@ -16,3 +16,10 @@ function checkIsSuccess(data){
         }
     })
 }
+
+console.log(checkIsSuccess('success'))
+checkIsSuccess(' ').then(function(result){
+    console.log(result)
+}).catch(function(error){
+    console.log(error)
+})
