@@ -6,3 +6,7 @@ var a = {
     'city': 'Pune',
     'fullName': 'Nitish Kumar'
 }
+console.log(a);
+console.log(a['name']);
+console.log(a.name);
+console.log(a['fullName']);
